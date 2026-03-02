@@ -1,0 +1,19 @@
+{
+  "name": "@studiobychar/chaty-widget",
+  "version": "1.1.0",
+  "description": "Universal floating contact widget - install once, use everywhere",
+  "main": "chaty.js",
+  "files": [
+    "chaty.js",
+    "chaty.min.css",
+    "chaty-loader.js"
+  ],
+  "keywords": [
+    "contact-widget",
+    "floating-button",
+    "social-widget",
+    "chat-widget"
+  ],
+  "author": "Studio by Char",
+  "license": "MIT"
+}

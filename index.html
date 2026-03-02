@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Studio by Char is a lifestyle photo studio and professional podcast studio for rent in Chiang Mai. A bright space that nurtures creativity and community.">
+    <title>Studio by Char | Creative Production Studio Chiang Mai</title>
+
+    <!-- SEO & Social Meta -->
+    <link rel="canonical" href="https://studiobychar.com/" />
+    <meta property="og:title" content="Studio by Char | Creative Production Studio Chiang Mai" />
+    <meta property="og:description"
+        content="Chiang Mai's premier lifestyle photo studio and professional podcast suites. Elevated production for visionary brands." />
+    <meta property="og:image"
+        content="https://studiobychar.com/images/studiobychar%20studio%20by%20char%20solar%20halo.webp" />
+    <meta property="og:url" content="https://studiobychar.com/" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Studio by Char | Chiang Mai" />
+    <meta name="twitter:description" content="Professional photo and podcast studio for rent in Chiang Mai." />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Studio by Char",
+      "image": "https://studiobychar.com/images/studiobychar%20studio%20by%20char%20solar%20halo.webp",
+      "description": "A lifestyle photo studio and professional podcast studio for rent in Chiang Mai.",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Chiang Mai",
+        "addressCountry": "TH"
+      },
+      "url": "https://studiobychar.com",
+      "sameAs": [
+        "https://www.instagram.com/studioby.char",
+        "https://www.facebook.com/share/1BsJcmAYLn"
+      ]
+    }
+    </script>
+
+    <!-- Google Fonts optimization: preconnect + preload -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Inter:wght@300;400;500&display=swap"></noscript>
+
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+    :root {
+        --bg-color: #FAF9F6;
+        --text-color: #1a1a1a;
+        --accent-color: #C08A74;
+        --muted-color: #6a6a6a;
+        --border-color: #e2dfd9;
+        --soft-bg: #F0EEE9;
+        --font-heading: 'Playfair Display', serif;
+        --font-body: 'Inter', sans-serif;
+        --border-radius: 8px;
+        --btn-radius: 30px;
+        --transition: 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: var(--font-body);
+        font-weight: 300;
+        color: var(--text-color);
+        background-color: var(--bg-color);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    h1, h2, h3, h4, h5, h6 {
+        font-family: var(--font-heading);
+        font-weight: 400;
+        line-height: 1.2;
+        margin-bottom: 1rem;
+        color: var(--text-color);
+    }
+
+    h1 {
+        font-size: clamp(3rem, 6vw, 4.5rem);
+        letter-spacing: -0.02em;
+    }
+
+    h2 {
+        font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    h3 {
+        font-size: clamp(1.5rem, 3vw, 2rem);
+    }
+
+    a {
+        color: var(--text-color);
+        text-decoration: none;
+        transition: color var(--transition);
+    }
+
+    a:hover {
+        color: var(--accent-color);
+    }
+
+    p {
+        margin-bottom: 1rem;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+        border-radius: var(--border-radius);
+        display: block;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 5%;
+    }
+
+    section {
+        padding: 8rem 0;
+    }
+
+    .text-muted {
+        color: var(--muted-color);
+    }
+
+    .serif {
+        font-family: var(--font-heading);
+    }
+
+    .italic {
+        font-style: italic;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 1rem 2.5rem;
+        border-radius: var(--btn-radius);
+        font-family: var(--font-body);
+        font-size: 0.9rem;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        cursor: pointer;
+        transition: all var(--transition);
+        border: 1px solid transparent;
+    }
+
+    .btn-primary {
+        background-color: var(--text-color);
+        color: var(--bg-color);
+    }
+
+    .btn-primary:hover {
+        background-color: var(--accent-color);
+        color: #fff;
+        transform: translateY(-2px);
+    }
+
+    .btn-outline {
+        background-color: transparent;
+        border: 1px solid var(--border-color);
+        color: var(--text-color);
+    }
+
+    .btn-outline:hover {
+        border-color: var(--text-color);
+        background-color: var(--text-color);
+        color: var(--bg-color);
+    }
+
+    #main-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 100;
+        padding: 2.5rem 0;
+        transition: padding var(--transition), background-color var(--transition), border-color var(--transition);
+        border-bottom: 1px solid transparent;
+    }
+
+    #main-header.scrolled {
+        padding: 1rem 0;
+        background-color: rgba(250, 249, 246, 0.95);
+        backdrop-filter: blur(10px);
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    #main-header .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .logo {
+        font-family: var(--font-heading);
+        font-size: 1.25rem;
+        font-weight: 600;
+        letter-spacing: 1.5px;
+        text-transform: uppercase;
+    }
+
+    .logo:hover {
+        opacity: 0.8;
+    }
+
+    nav {
+        display: flex;
+        gap: 2.5rem;
+        align-items: center;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        color: var(--text-color);
+        position: relative;
+        padding-bottom: 2px;
+    }
+
+    nav a:hover {
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+
+    nav a.nav-button {
+        border: 1px solid var(--border-color);
+        padding: 0.6rem 1.5rem;
+        border-radius: var(--btn-radius);
+    }
+
+    nav a.nav-button:hover {
+        border-color: var(--text-color);
+        background-color: var(--text-color);
+        color: var(--bg-color);
+    }
+
+    .hamburger {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 101;
+    }
+
+    .hamburger .bar {
+        width: 25px;
+        height: 2px;
+        background-color: var(--text-color);
+        transition: all var(--transition);
+    }
+
+    .hero {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+        padding-top: 100px;
+        overflow: hidden;
+        text-align: center;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+
+    .hero-massive-title {
+        font-family: var(--font-heading);
+        font-size: clamp(4rem, 12vw, 10rem);
+        font-weight: 600;
+        line-height: 0.9;
+        letter-spacing: -0.04em;
+        margin-bottom: 2rem;
+        text-transform: uppercase;
+        opacity: 0.15;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        pointer-events: none;
+        white-space: nowrap;
+        z-index: 1;
+    }
+
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+
+    .hero-sub-header {
+        position: relative;
+        z-index: 3;
+    }
+
+    .mb-1 { margin-bottom: 1rem !important; }
+    .mb-2 { margin-bottom: 2rem !important; }
+    .mb-3 { margin-bottom: 3rem !important; }
+    .mt-1 { margin-top: 1rem !important; }
+
+    @media (max-width: 768px) {
+        .hamburger {
+            display: flex;
+        }
+
+        nav {
+            position: fixed;
+            top: 0;
+            right: -100%;
+            width: 80%;
+            height: 100vh;
+            background-color: var(--bg-color);
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            transition: right var(--transition);
+            box-shadow: -5px 0 15px rgba(0, 0, 0, 0.05);
+        }
+
+        nav.active {
+            right: 0;
+        }
+
+        .hamburger.active .bar:nth-child(1) {
+            transform: translateY(7px) rotate(45deg);
+        }
+
+        .hamburger.active .bar:nth-child(2) {
+            opacity: 0;
+        }
+
+        .hamburger.active .bar:nth-child(3) {
+            transform: translateY(-7px) rotate(-45deg);
+        }
+
+        .hero {
+            padding-top: 120px;
+            min-height: 80vh;
+        }
+    }
+    </style>
+
+    <link rel="stylesheet" href="css/style.css" media="print" onload="this.media='all'">
+    <noscript><link rel="stylesheet" href="css/style.css"></noscript>
+
+    <!-- Chaty Widget: Floating Contact Buttons -->
+    <link href="./css/chaty-front.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript><link href="./css/chaty-front.min.css" rel="stylesheet"></noscript>
+</head>
+
+<body>
+    <header id="main-header">
+        <div class="container">
+            <a href="index.html" class="logo">STUDIO BY CHAR</a>
+            <button class="hamburger" aria-label="Toggle Navigation">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <nav>
+                <a href="pages/studio.html">Studio</a>
+                <a href="pages/podcast-video.html">Podcast</a>
+                <a href="pages/production-services.html">Production</a>
+                <a href="pages/portfolio.html">Portfolio</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/book.html" class="nav-button">Book</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero animate-in">
+            <div class="hero-massive-title">Studio by Char</div>
+            <div class="hero-overlay"
+                style="background-size: cover; background-position: center; opacity: 0.15; position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 1;">
+            </div>
+            <div class="container hero-content">
+                <div class="hero-sub-header">
+                    <span class="serif italic text-muted"
+                        style="font-size: 1.2rem; display: block; margin-bottom: 1.5rem;">Chiang Mai's Premier Boutique
+                        Studio</span>
+                    <h1>Elevated Production <br>for Visionary Brands</h1>
+                    <div class="mb-2" style="margin-top: 3rem;">
+                        <a href="pages/book.html" class="btn btn-primary" style="margin-right: 1.5rem;">Book Your
+                            Set</a>
+                        <a href="pages/production-services.html" class="btn btn-outline">Explore Services</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Vision Section -->
+        <section class="vision-section" style="padding: 10rem 0; border-bottom: 1px solid var(--border-color);">
+            <div class="container">
+                <div class="grid-2">
+                    <div style="text-align: left;">
+                        <h2 class="mb-2">A Sanctuary for <br><span class="serif italic">Elite Content Creation</span>
+                        </h2>
+                    </div>
+                    <div>
+                        <p class="text-muted" style="font-size: 1.1rem; line-height: 1.8;">Studio by Char is more than
+                            just a physical location; it is an upmarket sanctuary for brands who demand excellence. Our
+                            meticulously designed lifestyle sets, professional podcast suites, and expert production
+                            team ensure your vision is realized with absolute precision.</p>
+                        <p class="text-muted" style="font-size: 1.1rem; line-height: 1.8; margin-top: 1.5rem;">Whether
+                            you are an international creator flying into Chiang Mai or a local brand ready to scale, we
+                            provide the technical expertise and aesthetic environment needed to produce world-class
+                            results.</p>
+                        <div style="margin-top: 2.5rem;">
+                            <a href="https://www.instagram.com/studioby.char" target="_blank" rel="noopener"
+                                style="color: var(--text-color); font-weight: 500; text-decoration: underline; text-underline-offset: 6px;">See
+                                the latest sets on Instagram &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Two Pillars Section -->
+        <section class="pillars bg-soft">
+            <div class="container">
+                <div class="grid-2">
+                    <div class="float-card animate-in">
+                        <img src="images/studiobychar studio by char grey sofa minimalist.webp"
+                            srcset="images/studiobychar studio by char grey sofa minimalist-650w.webp 650w,
+                                    images/studiobychar studio by char grey sofa minimalist-1300w.webp 1300w"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Lifestyle photo studio in Chiang Mai showing a minimalist grey sofa setup"
+                            class="mb-2"
+                            fetchpriority="high">
+                        <h3 class="mb-1">Rent The Space</h3>
+                        <p class="mb-1 text-muted">Access our meticulously designed lifestyle sets for your own team.
+                            From the airy natural light downstairs studio to our specialized multi-camera podcast
+                            suites, we provide the ultimate creative canvas. We welcome local and international creators
+                            to use our distinct sets. Whether you are planning a relaxed lifestyle portrait session or a
+                            structured talking head video, our photo studio in Chiang Mai has been crafted to make your
+                            workflow seamless and inspiring.</p>
+                        <a href="pages/studio.html" class="serif italic" style="color: var(--accent-color);">View the
+                            Sets &rarr;</a>
+                    </div>
+                    <div class="float-card animate-in" style="animation-delay: 0.2s;">
+                        <img src="images/studiobychar studio by char podcast multi guest collage-650w.webp"
+                            srcset="images/studiobychar studio by char podcast multi guest collage-650w.webp 650w,
+                                    images/studiobychar studio by char podcast multi guest collage-1300w.webp 1300w"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                            alt="Creative production studio collage showing multi guest podcast setups"
+                            class="mb-2">
+                        <h3 class="mb-1">Full Production</h3>
+                        <p class="mb-1 text-muted">Do not just rent a room. Partner with our expert production team. We
+                            handle creative direction, professional lighting, multi-cam recording, and post-production
+                            for brands and creators. Whether you need ongoing product photography for e-commerce, a
+                            series of talking head videos, or a high-end beauty campaign, our skilled in-house team
+                            handles all the technical details so you can focus on your message.</p>
+                        <a href="pages/production-services.html" class="serif italic"
+                            style="color: var(--accent-color);">Our Capabilities &rarr;</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- The Layout Overview -->
+        <section class="studio-overview">
+            <div class="container">
+                <div class="section-header">
+                    <h2>One Studio. Two Floors of Content.</h2>
+                    <p>Discover a versatile creative environment tailored for both still photography and cinematic video
+                        recording in the heart of northern Thailand.</p>
+                </div>
+
+                <div class="grid-2 mb-5">
+                    <div>
+                        <span class="serif italic">Floor One</span>
+                        <h3 class="mb-1">Lifestyle & Natural Light</h3>
+                        <p class="text-muted">A 100sqm open-plan floor designed for high-end lifestyle photography and
+                            brand content. Featuring floor-to-ceiling windows, minimal aesthetics, and a rotating
+                            collection of curated furniture. This bright space perfectly mimics a modern living
+                            environment, making it the ideal setting for fashion lookbooks, natural skincare campaigns,
+                            and elegant headshot photography.</p>
+                        <p class="text-muted mt-1">The space offers exceptional flexibility. Use our soft natural
+                            sunlight during the morning, or rely on our professional lighting equipment and blackout
+                            curtains to control the environment completely. Every booking includes access to
+                            professional backdrops, modifiers, and softboxes.</p>
+                        <ul class="text-muted" style="list-style: none; margin-top: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;">✓ Airy minimalist aesthetic</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Arch features and soft textures</li>
+                            <li style="margin-bottom: 0.5rem;">✓ Professional lighting rigs included</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="images/studiobychar studio by char grey sofa orange chair studio wide-650w.webp"
+                            srcset="images/studiobychar studio by char grey sofa orange chair studio wide-650w.webp 650w,
+                                    images/studiobychar studio by char grey sofa orange chair studio wide-1300w.webp 1300w"
+                            sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                            alt="Downstairs lifestyle photography and product photography studio in Chiang Mai featuring curved archways and aesthetic furniture">
+                    </div>
+                </div>
+
+                <div class="grid-2" style="direction: rtl;">
+                    <div style="direction: ltr;">
+                        <span class="serif italic">Floor Two</span>
+                        <h3 class="mb-1">Podcast & Cinematic Video</h3>
+                        <p class="text-muted">A specialized floor dedicated to high-fidelity audio and cinematic video
+                            recording. Our unique sets offer everything from relaxed wicker-comfort interviews to
+                            executive board-room styles. This dedicated podcast studio for rent allows creators to walk
+                            in, sit down, and start recording immediately.</p>
+                        <p class="text-muted mt-1">Our setups are perfect for coaches, thought leaders, and business
+                            owners looking to streamline their content flywheel. We provide an acoustically treated
+                            environment with multi-camera recording, reducing echo and ensuring warm, clear vocals. Our
+                            tech team ensures the lighting is flattering and your audio levels are crystal clear before
+                            you say your first word.</p>
+                        <ul class="text-muted" style="list-style: none; margin-top: 1.5rem;">
+                            <li style="margin-bottom: 0.5rem;">✓ Acoustic-treated multi-cam rooms</li>
+                            <li style="margin-bottom: 0.5rem;">✓ High-end Shure and Blackmagic equipment</li>
+                            <li style="margin-bottom: 0.5rem;">✓ 4 unique set designs available to match your brand</li>
+                        </ul>
+                    </div>
+                    <div style="direction: ltr;">
+                        <div class="float-card">
+                            <img src="images/studiobychar studio by char podcast interview mixed guests-650w.webp"
+                                srcset="images/studiobychar studio by char podcast interview mixed guests-650w.webp 650w,
+                                        images/studiobychar studio by char podcast interview mixed guests-1300w.webp 1300w"
+                                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 50vw"
+                                alt="Acoustically treated podcast studio for rent in Chiang Mai featuring professional microphones and lighting">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="faq bg-soft">
+            <div class="container" style="max-width: 900px;">
+                <div class="section-header mb-4">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Do you provide professional lighting gear with the basic rental?</h4>
+                    <p>Yes, our basic studio rental packages seamlessly include access to standard continuous lighting
+                        and strobe units. If you require advanced cinematic setups or precise lighting modifiers, please
+                        specify this during your booking so we can confidently prepare the floor.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Can we rent both floors of the studio simultaneously?</h4>
+                    <p>Absolutely. Many robust production teams choose to book both the natural light lifestyle floor
+                        and the upstairs acoustic video suites concurrently. This allows teams to efficiently capture
+                        multiple varying visual assets all in a single highly productive day.</p>
+                </div>
+
+                <div class="faq-item">
+                    <h4>Where exactly is the studio located?</h4>
+                    <p>Studio by Char is precisely situated in a remarkably quiet neighborhood in Chiang Mai, Thailand.
+                        This strategic location provides easy ground level loading access, very ample private parking,
+                        and beautifully avoids the constant noise pollution commonly found in the congested city center.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta text-center">
+            <div class="container">
+                <h2 class="mb-3">Who is Studio by Char for?</h2>
+                <div class="grid-3">
+                    <div class="float-card-static text-center">
+                        <h4 class="mb-1">Brand Owners</h4>
+                        <p class="text-muted">Elevate your e-commerce and lifestyle campaigns with a high-end backdrop.
+                            Perfect for product launches, clothing drops, and beauty brand rollouts that demand a
+                            premium visual standard.</p>
+                    </div>
+                    <div class="float-card-static text-center">
+                        <h4 class="mb-1">Thought Leaders</h4>
+                        <p class="text-muted">Streamline your content flywheel with professional multi-cam video
+                            podcasts. Arrive, record your expertise with zero technical set up, and leave with broadcast
+                            quality files.</p>
+                    </div>
+                    <div class="float-card-static text-center">
+                        <h4 class="mb-1">Creative Teams</h4>
+                        <p class="text-muted">A blank canvas (or a pre-lit one) for your next production in Thailand.
+                            Used by local brands, creators and visiting teams who need a reliable, professional hub for
+                            their campaigns.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Teaser -->
+        <section class="cta-banner">
+            <div class="cta-banner-content">
+                <div class="cta-banner-text">
+                    <h2>Ready to produce your next masterpiece?</h2>
+                    <p>Explore our featured works and see why we are Chiang Mai's preferred boutique studio for
+                        photography, video, and audio recording. Let us help you bring your creative vision to life.</p>
+                </div>
+                <div>
+                    <a href="pages/portfolio.html" class="btn btn-outline"
+                        style="border-color: white; color: white;">View Portfolio</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <div class="footer-nav">
+                <a href="pages/studio.html">Studio</a>
+                <a href="pages/podcast-video.html">Podcast</a>
+                <a href="pages/production-services.html">Production</a>
+                <a href="pages/portfolio.html">Portfolio</a>
+                <a href="pages/about.html">About</a>
+                <a href="pages/book.html">Book</a>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/studioby.char" target="_blank" rel="noopener" class="instagram"
+                    aria-label="Instagram">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.266.069 1.646.069 4.85 0 3.204-.012 3.584-.07 4.85-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.85-.07-3.251-.149-4.766-1.69-4.916-4.917-.058-1.266-.07-1.646-.07-4.85 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.646-.069 4.85-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zM5.838 12a6.162 6.162 0 1 1 12.324 0 6.162 6.162 0 0 1-12.324 0zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm4.965-10.322a1.44 1.44 0 1 1 2.881.001 1.44 1.44 0 0 1-2.881-.001z" />
+                    </svg>
+                </a>
+                <a href="https://www.facebook.com/share/1BsJcmAYLn" target="_blank" rel="noopener" class="facebook"
+                    aria-label="Facebook">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                    </svg>
+                </a>
+                <a href="https://www.linkedin.com/company/shot-by-char" target="_blank" rel="noopener" class="linkedin"
+                    aria-label="LinkedIn">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                    </svg>
+                </a>
+                <a href="https://www.shotbychar.com" target="_blank" rel="noopener" class="website"
+                    aria-label="Website">
+                    <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm6.98 10h-2.131c-.332-2.311-1.185-4.417-2.365-6.19a9.98 9.98 0 0 1 4.496 6.19zm-3.86 0H8.88A16.035 16.035 0 0 1 12 3.197 16.035 16.035 0 0 1 15.12 10zm-6.24 0H6.75A9.98 9.98 0 0 1 11.247 3.81C10.067 5.583 9.213 7.689 8.88 10zM5.02 14h2.131c.332 2.311 1.185 4.417 2.365 6.19a9.98 9.98 0 0 1-4.496-6.19zm3.86 0h6.24A16.035 16.035 0 0 1 12 20.803 16.035 16.035 0 0 1 8.88 14zm6.24 0h2.131a9.98 9.98 0 0 1-4.496 6.19A15.939 15.939 0 0 0 15.12 14z" />
+                    </svg>
+                </a>
+            </div>
+
+            <div class="footer-bottom">
+                <p>&copy; 2026 Studio by Char. Chiang Mai, Thailand.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+    <script>
+        window.addEventListener('scroll', () => {
+            const header = document.getElementById('main-header');
+            if (window.scrollY > 50) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+    </script>
+
+    <!-- Chaty Widget Script -->
+    <script src="./scripts/chaty-widget.js"></script>
+</body>
+
+</html>
