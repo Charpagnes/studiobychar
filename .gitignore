@@ -1,0 +1,43 @@
+# Whitelist: only the files the live website needs are tracked.
+# Build tools (_src, _tools), the unused image library and local notes stay out of the repo.
+/*
+!/.gitignore
+!/index.html
+!/404.html
+!/rent/
+!/record/
+!/hire/
+!/sets/
+!/work/
+!/about/
+!/book/
+!/quote/
+!/policies/
+!/thank-you/
+!/css/
+!/js/
+!/fonts/
+!/images/
+/images/library/
+/css/style.css
+/js/main.js
+!/favicon.ico
+!/favicon.svg
+!/apple-touch-icon.png
+!/icon-512.png
+!/_headers
+!/_redirects
+!/robots.txt
+!/sitemap.xml
+!/wrangler.jsonc
+
+# Claude skills and settings stay local
+/.claude/
+
+# OS and editor noise anywhere
+.DS_Store
+Thumbs.db
+desktop.ini
+.gstack/
+.ua/
+.shots/

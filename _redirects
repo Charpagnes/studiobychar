@@ -1,0 +1,8 @@
+# Old V4 URLs to the new structure (301 = permanent, keeps SEO)
+/pages/studio.html              /rent/                  301
+/pages/podcast-video.html       /record/                301
+/pages/production-services.html /hire/                  301
+/pages/portfolio.html           /work/                  301
+/pages/about.html               /about/                 301
+/pages/book.html                /book/                  301
+/pages/photography.html         /hire/#headshots        301
